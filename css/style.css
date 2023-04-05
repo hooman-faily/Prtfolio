@@ -1,0 +1,22 @@
+@import url(./variables.css);
+body{
+    margin: 0;
+}
+.topNav{
+    display: flex;
+    background-color: var(--Gray);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--White);
+    padding: 10px;
+}
+
+nav a:hover{
+    color: var(--Primary);
+}
+
