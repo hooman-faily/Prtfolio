@@ -9,4 +9,6 @@
     font-size: var(--button-font);
     border: none;
     display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
 }
