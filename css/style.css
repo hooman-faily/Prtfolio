@@ -1,4 +1,6 @@
 @import url(./variables.css);
+@import url(./button.css);
+@import url(./card.css);
 body{
     margin: 0;
     font-family: var(--bodyFont);
@@ -7,6 +9,12 @@ body{
 }
 h3{
     font-size: var(--h3-fontSize);
+}
+h4{
+    font-size: var(--h4-fontSize);
+}
+h5{
+    font-size: var(--h5-fontSize);
 }
 .topNav{
     display: flex;
@@ -52,4 +60,8 @@ nav a.active{
 }
 .heroContent{
     max-width: 613px;
+}
+
+.projects h4{
+    text-align: center;
 }

@@ -34,7 +34,14 @@
 
     /* font */
     --bodyFont:'Roboto', sans-serif;
-    --h3-fontSize: 48px;
+    --h1-fontSize: 3rem;
+    --h2-fontSize: 3rem;
+    --h3-fontSize: 3rem;
+    --h4-fontSize: 2.125rem;
+    --h5-fontSize: 1.5rem;
+    --button-font: 0.875rem;
+
+    --body-max-width: 1320px;
 
 
 }
